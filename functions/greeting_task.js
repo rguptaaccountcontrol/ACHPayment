@@ -8,7 +8,7 @@ exports.greeting_task =async function(context, event, callback,RB) {
   let Redirect = false;
   let Handoff = false;
   let Say = "";
-  // Add your code here.
+  // Add your code here...
   const Memory = JSON.parse(event.Memory);
   Remember.Agent = false;
   console.log('greeting_task');
