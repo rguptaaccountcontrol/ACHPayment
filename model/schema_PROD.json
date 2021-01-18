@@ -40,7 +40,7 @@
                 }
             },
             "voice" : {
-                "say_voice" : "Polly.pollyana"
+                "say_voice" : "Polly.Joanna-Neural"
             },
             "name" : ""
         }
