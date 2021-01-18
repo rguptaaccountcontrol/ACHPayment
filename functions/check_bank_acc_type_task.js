@@ -40,7 +40,7 @@ exports.check_bank_acc_type_task =async function(context, event, callback,RB) {
           "num_digits": 1,
           "finish_on_key": "#",
           "redirects": {
-            1: "task://goodbye",
+            1: "",
             2: "task://bank_account_type"
           }
         }
