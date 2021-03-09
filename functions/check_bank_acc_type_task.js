@@ -9,7 +9,7 @@ exports.check_bank_acc_type_task =async function(context, event, callback,RB) {
     let Say = "";
     // Add your code here.
     const Memory = JSON.parse(event.Memory);
-    console.log("memory:"+JSON.stringify(Memory));
+    //console.log("memory:"+JSON.stringify(Memory));
     let bank_acc_type ='';
     let sYesNo='';
     
@@ -26,7 +26,7 @@ exports.check_bank_acc_type_task =async function(context, event, callback,RB) {
     if(x.includes('Saving')) sYesNo='Savings';
     if(x.includes('Checking')) sYesNo='Checking';
      if ( bank_acc_type ) {
-       console.log('check bank type: '+bank_acc_type);
+       //console.log('check bank type: '+bank_acc_type);
        Say = `you said ${bank_acc_type}. `;
        Prompt = `Is that correct? say yes or no. You can also press 1 for yes and 2 for no.`;
      
