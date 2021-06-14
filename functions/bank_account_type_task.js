@@ -74,7 +74,10 @@ exports.bank_account_type_task =async function(context, event, callback,RB) {
                                 "my bank account is saving",
                                 "my bank account is account",
                                 "my bank account is saving",
-                                "my bank account is account"
+                                "my bank account is account",
+                                "Saving.",
+                                "Checking.",
+                                "Savings."
                           ]
                         }
                       }
@@ -149,7 +152,10 @@ exports.bank_account_type_task =async function(context, event, callback,RB) {
                                 "my bank account is saving",
                                 "my bank account is account",
                                 "my bank account is saving",
-                                "my bank account is account"
+                                "my bank account is account",
+                                "Saving.",
+                                "Checking.",
+                                "Savings."
                           ]
                         }
                       }
@@ -228,7 +234,10 @@ exports.bank_account_type_task =async function(context, event, callback,RB) {
                             "my bank account is saving",
                             "my bank account is account",
                             "my bank account is saving",
-                            "my bank account is account"
+                            "my bank account is account",
+                            "Saving.",
+                            "Checking.",
+                            "Savings."
                       ]
                     }
                   }
@@ -301,6 +310,9 @@ exports.bank_account_type_task =async function(context, event, callback,RB) {
                           "my bank account is saving",
                           "my bank account is account",
                           "my bank account is saving",
+                          "Saving.",
+                          "Checking.",
+                          "Savings."
                     ]
                   }
                 }
